@@ -95,7 +95,7 @@ class Downloader private constructor(private val context: Context) {
      * @param videoData 包含base_url和title的JSON对象
      * @param listener 下载监听器
      */
-    fun downloadFromVideoData(videoData: JSONObject, listener: DownloadListener? = null) {
+    fun downloadFromVideoData(videoData: JSONObject, listener: DownloadListener? = null,filename: String) {
         this.downloadListener = listener
 
         try {
@@ -104,7 +104,7 @@ class Downloader private constructor(private val context: Context) {
             val videoTitle = videoData.getString("title")
 
             // 生成安全的文件名
-            currentFileName = generateSafeFileName(videoTitle)
+            currentFileName = filename
 
             // 开始下载
             startDownload(downloadUrl, currentFileName)

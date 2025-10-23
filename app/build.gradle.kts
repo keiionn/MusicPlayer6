@@ -179,6 +179,8 @@ dependencies {
 
     coreLibraryDesugaring("com.android.tools:desugar_jdk_libs:2.0.4")
     implementation("androidx.profileinstaller:profileinstaller:1.3.1")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
+
     "baselineProfile"(project(":baselineprofile"))
 
     debugImplementation("net.jthink:jaudiotagger:3.0.1") // <-- for "SD Exploder"
