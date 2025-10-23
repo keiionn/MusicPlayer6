@@ -12,7 +12,7 @@
 
 ## 安装
 
-[MusicPlayer v1.0.0](https://github.com/keiionn/MusicPlayer6/releases/tag/MusicPlayer)
+[MusicPlayer v1.0.0](https://github.com/keiionn/MusicPlayer6/releases)
 
 
 
