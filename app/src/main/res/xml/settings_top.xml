@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        android:icon="@drawable/ic_palette"
+        android:key="appearance"
+        android:layout="@layout/preference_basic"
+        android:summary="@string/settings_appearance_summary"
+        android:title="@string/settings_category_appearance" />
+
+    <Preference
+        android:icon="@drawable/ic_play_arrow"
+        android:key="player"
+        android:layout="@layout/preference_basic"
+        android:summary="@string/settings_player_ui_summary"
+        android:title="@string/settings_player_ui" />
+
+    <Preference
+        android:icon="@drawable/ic_manufacturing"
+        android:key="behavior"
+        android:layout="@layout/preference_basic"
+        android:summary="@string/settings_behavior_summary"
+        android:title="@string/settings_category_behavior" />
+
+    <Preference
+        android:icon="@drawable/ic_collections_bookmark"
+        android:key="library"
+        android:layout="@layout/preference_basic"
+        android:summary="@string/settings_library_summary"
+        android:title="@string/settings_library"
+        app:isPreferenceVisible="false" />
+
+    <Preference
+        android:icon="@drawable/ic_dashboard_customize"
+        android:key="personalization"
+        android:layout="@layout/preference_basic"
+        android:summary="@string/settings_customization_summary"
+        android:title="@string/settings_customization"
+        app:isPreferenceVisible="false" />
+
+
+
+</PreferenceScreen>
